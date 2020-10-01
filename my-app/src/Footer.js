@@ -9,6 +9,7 @@ const Footer = (props) => {
         return (
 
             <div id = 'footer'>
+            <div id ='container'>
                 <Dropdown>
                 <Dropdown.Toggle variant="success" id= 'footer-button'>
                     Help
@@ -139,13 +140,13 @@ const Footer = (props) => {
                     </Dropdown.Menu>
                 </Dropdown>
             
-            <br></br>
+            </div>
 
                 <div id = 'fcontainer'>
                     <b>The latest on our store health and saftey plans</b>
                 </div>
                     
-                    <div id = 'footerList'>
+                <div id = 'footerList'>
                         <p href='#/action-1'>Recall</p>
                         <p href='#/action-1'>Terms</p>
                         <p href='#/action-1'>Intrest-Based Acts</p>
